@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<input type="text" name="" id="pokemonname" placeholder="Enter pokemon Name">
-<button onclick="fetchdata()">Fetch Pokemon</button>
-<br>
-<img src="" alt="Pokemon Image" id="pokemonSprite" style="display: none;">
+<body style="background-color: black;">
+    <div class="container">
+        <div>
+            <input type="text" name="" id="pokemonname" placeholder="Enter Pokemon Name">
+            <button onclick="fetchdata()" class="btn btn-danger">Fetch Pokemon</button>
+            <br>
+        </div>
+        <div class="pokemon-container">
+            <img src="" alt="Pokemon Image" id="pokemonSprite" style="display: none;">
+        </div>
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo">
+        </div>
+    </div>
+
     <script src="index.js"></script>
 </body>
 </html>
