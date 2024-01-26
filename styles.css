@@ -15,6 +15,7 @@ button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
     background-color: red;
+    color: white;
     border: none;
 }
 
