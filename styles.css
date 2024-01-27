@@ -43,9 +43,12 @@ img {
     top: 20px;
     left: 20px;
     z-index: -1;
+<<<<<<< HEAD
 }
 p{
     color: white;
+=======
+>>>>>>> origin/master
 }
 
 @media only screen and (max-width: 600px) {
